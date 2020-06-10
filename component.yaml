@@ -1,5 +1,5 @@
 platform: iOS
-buildPlatform:
+buildPlatform: Flutter
 displayName: "Flutter Build"
 description: "Build your Flutter project for iOS."
 inputs:
