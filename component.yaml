@@ -16,7 +16,7 @@ inputs:
   helpText:
 - key: "AC_FLUTTER_BUILD_EXTRA_ARGS"
   isRequired: false
-  defaultValue: "--no-codesign"
+  defaultValue: "--no-codesign --verbose"
   title: Custom Build Arguments
   description: "Add custom build arguments."
   helpText:
