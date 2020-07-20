@@ -16,6 +16,6 @@ def run_command(command)
     end
 end
 
-run_command("cd #{ac_flutter_project_path} && flutter build ios #{ac_flutter_build_mode} #{ac_flutter_build_extra_args} ")
+run_command("cd #{ac_flutter_project_path} && flutter build ios --#{ac_flutter_build_mode} #{ac_flutter_build_extra_args} ")
 
 exit 0
