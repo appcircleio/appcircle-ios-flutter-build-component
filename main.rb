@@ -10,7 +10,7 @@ ac_flutter_build_mode = get_env_variable("AC_FLUTTER_BUILD_MODE") || abort('Miss
 ac_flutter_build_extra_args = get_env_variable("AC_FLUTTER_BUILD_EXTRA_ARGS") || ""
 
 def run_command(command)
-    puts "@[command] #{command}"
+    puts "@@[command] #{command}"
     unless system(command)
       exit $?.exitstatus
     end
