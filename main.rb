@@ -7,7 +7,7 @@ end
 
 ac_flutter_project_path = get_env_variable("AC_FLUTTER_PROJECT_PATH") || abort('Missing AC_FLUTTER_PROJECT_PATH.')
 ac_flutter_build_mode = get_env_variable("AC_FLUTTER_BUILD_MODE") || abort('Missing AC_FLUTTER_BUILD_MODE.')
-ac_flutter_build_extra_args = get_env_variable("AC_FLUTTER_BUILD_EXTRA_ARGS") || ""
+ac_flutter_build_extra_args = get_env_variable("AC_FLUTTER_BUILD_EXTRA_ARGS") || "--no-codesign --verbose"
 
 def run_command(command)
     puts "@@[command] #{command}"
